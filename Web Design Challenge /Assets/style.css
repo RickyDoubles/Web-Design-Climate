@@ -1,0 +1,24 @@
+
+
+img {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media(max-width:991px){
+    .navbar.bg-light{
+        background-color: lavenderblush!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
